@@ -93,7 +93,7 @@ const Hero = () => {
         <motion.img
           variants={variants}
           style={{ scaleX: -1 }}
-          src="./public/hero.png"
+          src="/hero.png"
           alt=""
         />
       </motion.div>
@@ -102,3 +102,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
