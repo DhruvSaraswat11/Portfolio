@@ -21,7 +21,7 @@ const Navbar = (props) => {
                 <img src="/gil.png" alt="" />
               </a>
               <a href="https://t.me/Thunder8590">
-                <img src="/public/tg.png" alt="" />
+                <img src="/tg.png" alt="" />
               </a>
             </a>
           </div>
@@ -32,3 +32,4 @@ const Navbar = (props) => {
 };
 
 export default Navbar;
+
