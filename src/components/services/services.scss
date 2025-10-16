@@ -1,0 +1,118 @@
+@import "../../App.scss";
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  height: 98vh;
+  hr {
+    width: 95vw;
+    margin-top: 9px;
+    border: 1px solid rgb(86, 86, 104);
+  }
+  h1 {
+    margin-top: 15px;
+    color: rgba(0, 171, 255, 1);
+    font-weight: 700;
+    font-size: 3.5vw;
+  }
+  p {
+    color: rgb(157 157 157);
+    @include mobile {
+      font-size: 2vw;
+    }
+  }
+  .gridcontainer {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .c {
+      width: 90vw;
+      height: 27vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 35px;
+      overflow: hidden;
+      @include mobile {
+        h2 {
+          font-size: 2vw;
+        }
+      }
+      .shown {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        justify-content: space-between;
+        align-items: center;
+        // height: 90%;
+        // border: 2px solid pink;
+        @include mobile {
+          flex-wrap: wrap;
+          justify-content: center;
+          overflow: scroll;
+          height: 90px;
+        }
+        .imgcl {
+          height: 35px;
+          width: 35px;
+        }
+        span {
+          background-color: transparent;
+          border: 1px solid rgba(126, 147, 147, 0.405);
+          border-radius: 7%;
+          height: 100px;
+          width: 150px;
+          font-weight: bold;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          @include mobile {
+            height: 90px;
+            font-size: 9px;
+          }
+        }
+      }
+      .sk {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+        @include mobile {
+          flex-wrap: wrap;
+          justify-content: center;
+          overflow: scroll;
+          height: 90px;
+        }
+        .imgcl {
+          height: 35px;
+          width: 35px;
+        }
+        span {
+          background-color: transparent;
+          border: 1px solid rgba(126, 147, 147, 0.405);
+          border-radius: 7%;
+          height: 100px;
+          width: 150px;
+          text-align: center;
+          font-weight: bold;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          @include mobile {
+            height: 90px;
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+}
