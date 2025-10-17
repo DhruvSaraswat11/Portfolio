@@ -113,10 +113,6 @@
       &.right {
         justify-content: flex-end;
 
-        .content-box {
-          margin-left: auto;
-        }
-
         .dot {
           left: -48px;
         }
@@ -155,7 +151,7 @@
         }
 
         .dot {
-          left: 11px !important;
+          left: -37px !important;
           right: auto !important;
         }
       }
@@ -174,6 +170,7 @@
 
       .timeline-item {
         margin-bottom: 5vh;
+        padding-right : 19px;
 
         .content-box {
           width: calc(100% - 40px);
@@ -183,3 +180,4 @@
     }
   }
 }
+
