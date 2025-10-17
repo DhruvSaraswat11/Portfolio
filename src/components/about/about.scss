@@ -124,7 +124,7 @@
   @media (max-width: 992px) {
     .timeline {
       width: 91vw;
-
+       height:100vh;
       .timeline-item {
         .content-box {
           width: 48%;
@@ -147,7 +147,7 @@
 
         .content-box {
           width: calc(100% - 50px);
-          margin: 0 0 0 50px;
+          margin: 19px 70px 58px 50px;
         }
 
         .dot {
@@ -180,4 +180,5 @@
     }
   }
 }
+
 
