@@ -128,9 +128,7 @@
       .timeline-item {
         .content-box {
           width: 48%;
-          .description{
-            font-size:3.2vw;
-        }
+         
       }
     }
   }
@@ -178,10 +176,14 @@
           width: calc(100% - 40px);
           padding: 1.5rem;
         }
+         .description{
+            font-size:3.2vw;
+        }
       }
     }
   }
 }
+
 
 
 
