@@ -161,6 +161,13 @@
   @media (max-width: 480px) {
     padding: 3vh 4vw;
 
+    .timeline-container .timeline .timeline-item .content-box .description {
+    font-style: italic;
+    color: gray;
+    font-weight: 700;
+    font-size: 3.2vw;
+    margin-bottom: .5rem;
+}
     .timeline-title {
       font-size: 1.5rem;
     }
@@ -175,14 +182,12 @@
         .content-box {
           width: calc(100% - 40px);
           padding: 1.5rem;
-        }
-         .description{
-            font-size:3.2vw;
-        }
+        }  
       }
     }
   }
 }
+
 
 
 
