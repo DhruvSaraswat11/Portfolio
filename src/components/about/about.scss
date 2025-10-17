@@ -128,7 +128,9 @@
       .timeline-item {
         .content-box {
           width: 48%;
-         
+           .description {
+            font-size: 3.2vw;
+          }
       }
     }
   }
@@ -148,6 +150,9 @@
         .content-box {
           width: calc(100% - 50px);
           margin: 0px 57px 19px 50px;
+            .description {
+            font-size: 3.2vw;
+          }
         }
 
         .dot {
@@ -161,13 +166,6 @@
   @media (max-width: 480px) {
     padding: 3vh 4vw;
 
-    .timeline-container .timeline .timeline-item .content-box .description {
-    font-style: italic;
-    color: gray;
-    font-weight: 700;
-    font-size: 3.2vw;
-    margin-bottom: .5rem;
-}
     .timeline-title {
       font-size: 1.5rem;
     }
@@ -190,6 +188,7 @@
     }
   }
 }
+
 
 
 
