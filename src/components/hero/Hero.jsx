@@ -71,7 +71,7 @@ const Hero = () => {
           <motion.img
             variants={variants}
             animate="scrollbutton"
-            src="./public/scroll.png"
+            src="/scroll.png"
             alt=""
           />
         </motion.div>
@@ -102,4 +102,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
