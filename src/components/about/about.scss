@@ -128,6 +128,8 @@
       .timeline-item {
         .content-box {
           width: 48%;
+          .description{
+            font-size:3.2vw;
         }
       }
     }
@@ -147,7 +149,7 @@
 
         .content-box {
           width: calc(100% - 50px);
-          margin: 19px 70px 58px 50px;
+          margin: 0px 57px 19px 50px;
         }
 
         .dot {
@@ -180,5 +182,6 @@
     }
   }
 }
+
 
 
