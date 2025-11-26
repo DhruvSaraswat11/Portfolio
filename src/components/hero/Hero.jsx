@@ -60,7 +60,7 @@ const Hero = () => {
           </motion.h1>
           <div className="buttons">
             <motion.button variants={variants}>
-              <a href="/resu.pdf" target="blank">
+              <a href="https://www.overleaf.com/read/vfvhqqgfnjjz#10eef6" target="blank">
                 Resume
               </a>
             </motion.button>
@@ -102,5 +102,6 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
